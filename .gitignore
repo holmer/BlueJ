@@ -5,6 +5,8 @@
 *.ctxt
 *.class
 *.bluej
+*.pkg
+*.pkh
 
 #################
 ## Eclipse
