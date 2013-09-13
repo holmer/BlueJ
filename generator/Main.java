@@ -1,6 +1,11 @@
 import java.util.Collections;
 import java.util.List;
 
+/**
+* Test the generator class.
+* @author Uno Holmer
+* @version 2013-09-13
+*/
 public class Main {
     public static void main(String[] arg) {
        
