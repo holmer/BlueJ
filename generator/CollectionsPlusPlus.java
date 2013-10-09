@@ -6,7 +6,7 @@ public class CollectionsPlusPlus {
     public static <T> List<T> generate(Generator<T> generator, int n) {
         ArrayList<T> l = new ArrayList<T>(n);
         
-        for ( int i = 0; i < n; i++ ) 
+        for ( int i = n; i > 0; i-- ) 
             l.add(generator.next());
             
         return l;
