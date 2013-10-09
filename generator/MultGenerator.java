@@ -9,7 +9,7 @@ public class MultGenerator implements Generator<Integer> {
 
 	public Integer next() {
 	    int v = currentValue;
-	    increment += 2;
+	    increment++;
 	    currentValue += increment; 
 	    return v;
 	}
