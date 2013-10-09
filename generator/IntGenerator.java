@@ -1,16 +1,16 @@
 
 public class IntGenerator implements Generator<Integer> {
-	private int value;
+	private int currentValue;
 	private int increment;
 	
 	public IntGenerator( int startValue, int increment ) {
-		value = startValue;
+		currentValue = startValue;
 		this.increment = increment;
 	}
 
 	public Integer next() {
-	    int v = value;
-	    value += increment; 
+	    int v = currentValue;
+	    currentValue += increment; 
 	    return v;
 	}
 }
