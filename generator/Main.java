@@ -16,9 +16,7 @@ public class Main {
         }
         
         numbers = 
-            CollectionsPlusPlus.generate(
-                new MultGenerator(0,1),
-                100);
+            CollectionsPlusPlus.generate(new MultGenerator(0,1),100);
           
         for ( int i : numbers )
             System.out.println( i );
