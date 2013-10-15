@@ -5,8 +5,8 @@ public class FibonacciGenerator implements Generator<Integer> {
 	public Integer next() {
 	    int nextFib = lastFib + currentFib;
 	    lastFib = currentFib;
-	    int f = currentFib;
+	    int returnFib = currentFib;
 	    currentFib = nextFib;
-	    return f;
+	    return returnFib;
 	}
 }
