@@ -29,5 +29,9 @@ public class Main {
         numbers = CollectionsPlusPlus.generate(new PrimeGenerator(),25);
         for ( int i : numbers )
             System.out.println( i );
+        
+        numbers = CollectionsPlusPlus.generate(new BackwardsIntGenerator(0,2),10);
+        for ( int i : numbers )
+            System.out.println( i );
     }
 }

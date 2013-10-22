@@ -1,5 +1,5 @@
 
-public class BackwardsIntGenerator {
+public class BackwardsIntGenerator implements Generator<Integer> {
 	private int currentValue;
 	private int decrement;
 	
