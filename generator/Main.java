@@ -24,7 +24,7 @@ public class Main {
         
         numbers = CollectionsPlusPlus.generate(new FibonacciGenerator(),25);
         for ( int i : numbers )
-            System.out.println( i );
+            System.out.println( i ); // A new comment
             
         numbers = CollectionsPlusPlus.generate(new PrimeGenerator(),25);
         for ( int i : numbers )
