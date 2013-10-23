@@ -33,5 +33,10 @@ public class Main {
         numbers = CollectionsPlusPlus.generate(new BackwardsIntGenerator(0,2),10);
         for ( int i : numbers )
             System.out.println( i );
+            
+        List<Double> doubles =
+            CollectionsPlusPlus.generate(new GeometricGenerator(1000,1.1),25);
+        for ( double d : doubles )
+            System.out.println( d );
     }
 }
