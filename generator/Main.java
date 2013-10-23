@@ -16,11 +16,6 @@ public class Main {
         numbers =  CollectionsPlusPlus.generate(new MultGenerator(0,1),100);
         for ( int i : numbers )
             System.out.println( i );
-        for ( int i = 1; i <= 10000; i++ ) {
-            Collections.shuffle(numbers);
-            Collections.sort(numbers);
-            System.out.println("sort " + i + " finished");
-        } 
         
         numbers = CollectionsPlusPlus.generate(new FibonacciGenerator(),25);
         for ( int i : numbers )
