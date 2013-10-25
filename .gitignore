@@ -4,8 +4,8 @@
 
 *.ctxt
 *.class
-*.bluej
-*.pkg
+##*.bluej
+##*.pkg
 *.pkh
 
 #################
