@@ -6,7 +6,7 @@ public class Main {
         List<Integer> numbers = 
             CollectionsPlusPlus.generate(
                 new IntGenerator(0,1),
-                10000);
+                1000);
         for ( int i = 1; i <= 1000; i++ ) {
             Collections.shuffle( numbers );
             Collections.sort( numbers );
@@ -32,8 +32,7 @@ public class Main {
         for ( int i : numbers )
             System.out.println( i );
             
-        List<Double> doubles =
-            CollectionsPlusPlus.generate(new GeometricGenerator(1000,1.1),25);
+        List<Double> doubles = CollectionsPlusPlus.generate(new GeometricGenerator(1000,1.1),25);
         for ( double d : doubles )
             System.out.println( d );
     }
