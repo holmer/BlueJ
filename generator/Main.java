@@ -13,6 +13,7 @@ public class Main {
             System.out.println("sort " + i + " finished");
         }
         
+        System.out.println("Demonstrating the CollectionsPlusPlus framework.");
         numbers =  CollectionsPlusPlus.generate(new MultGenerator(0,1),100);
         for ( int i : numbers )
             System.out.println( i );
