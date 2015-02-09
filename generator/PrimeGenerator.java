@@ -7,10 +7,11 @@ public class PrimeGenerator implements Generator<Integer> {
 	        currentPrime = 2;
 	    else if ( currentPrime == 2 )
 	        currentPrime = 3;
-	    else
+	    else {
 	        do {
 	            currentPrime += 2;
             } while ( ! isPrime(currentPrime) );
+        }
 	    return returnPrime;
 	}
 	
